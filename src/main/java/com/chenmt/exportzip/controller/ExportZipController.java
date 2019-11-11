@@ -28,7 +28,7 @@ public class ExportZipController {
         String wordPath= FileUtils.getPath(path,FileUtils.WORD_PATH);
         String zipPath=FileUtils.getPath(path,FileUtils.ZIP_PATH);
         Map<String,Object> param=new HashMap<>();
-        param.put("title","这是word标题");
+        param.put("title","这是标题");
         param.put("content","这是内容");
         param.put("name","这是名字");
         param.put("year", DateFormatUtils.format(new Date(), "yyyy"));
